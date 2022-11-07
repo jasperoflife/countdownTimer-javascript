@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    line-height: 60px;
+}
+
+.countdown{
+    display: flex;
+    gap: 20px;
+}
+h1{
+    font-size: 3rem;
+}
+.time{
+    font-size: 1.5rem;
+    text-align: center;
+}
+span{
+    margin-bottom: 20%;
+}
